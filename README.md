@@ -1,4 +1,4 @@
-# sample-databases: open sample databases for testing and instructional purposes
+# Open sample databases for testing and instructional purposes
 
 Having had to build sample databases for testing and instructional purposes,
 it's well past time for a place for them to live as I re-grow the collection.
