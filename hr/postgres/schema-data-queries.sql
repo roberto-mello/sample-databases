@@ -106,7 +106,7 @@ CREATE TABLE dependents (
 
 \pset pager off
 \o /dev/null
-CREATE EXTENSION pg_stat_stataments;
+--CREATE EXTENSION pg_stat_stataments;
 
 COPY public.employees (employee_id, first_name, last_name, start_date, job_title, salary, manager_id, department_id) FROM stdin;
 1	John	Smith	1989-05-07	President	364000.00	\N	1
