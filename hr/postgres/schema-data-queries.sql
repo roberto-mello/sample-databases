@@ -1,6 +1,7 @@
 -- This file contains the "hr" database schema, data, and 3 queries
 -- repeated several times, so we can get some good stats for sample
--- pg_stat_statements queries
+-- pg_stat_statements queries. This file is meant to be loaded
+-- via psql only
 
 -- database schema
 
@@ -102,6 +103,9 @@ CREATE TABLE dependents (
 );
 
 -- sample data
+
+\pset pager off
+\o /dev/null
 
 COPY public.employees (employee_id, first_name, last_name, start_date, job_title, salary, manager_id, department_id) FROM stdin;
 1	John	Smith	1989-05-07	President	364000.00	\N	1
