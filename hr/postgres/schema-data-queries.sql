@@ -105,7 +105,7 @@ CREATE TABLE dependents (
 -- sample data
 
 \pset pager off
-\o /dev/null
+
 --CREATE EXTENSION pg_stat_stataments;
 
 COPY public.employees (employee_id, first_name, last_name, start_date, job_title, salary, manager_id, department_id) FROM stdin;
@@ -3645,6 +3645,8 @@ Alex	Tenney	951
 Igor	Tenney	951
 \.
 
+\pset format csv
+
 -- sample queries
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
@@ -3926,3 +3928,5 @@ WHERE d.department_name = 'Management';
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
 FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+
+\pset format aligned
