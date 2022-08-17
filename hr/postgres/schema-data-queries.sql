@@ -3651,282 +3651,282 @@ Igor	Tenney	951
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 SELECT e.employee_id, e.first_name, e.last_name, e.salary
 FROM employees e JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Management' LIMIT 5;
 
 SELECT d.department_name, dep.first_name, dep.last_name
 FROM dependents dep 
     JOIN employees e ON (dep.employee_id = e.employee_id)
     JOIN departments d ON (e.department_id = d.department_id)
-WHERE d.department_name = 'Management';
+WHERE d.department_name = 'Information Technology' LIMIT 5;
 
 SELECT e.first_name, e.last_name, e.job_title,
   format('%s %s', m.first_name, m.last_name) AS manager
-FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id);
+FROM employees e LEFT OUTER JOIN employees m ON (e.manager_id = m.employee_id) LIMIT 5;
 
 \pset format aligned
