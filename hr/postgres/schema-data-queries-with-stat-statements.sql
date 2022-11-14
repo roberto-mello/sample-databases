@@ -7,6 +7,7 @@
 
 \! echo "shared_preload_libraries = 'pg_stat_statements'" >> postgresql.conf
 \! pg_ctl restart --mode=immediate -D .
+CREATE EXTENSION pg_stat_statements;
 \c
 
 -- database schema
