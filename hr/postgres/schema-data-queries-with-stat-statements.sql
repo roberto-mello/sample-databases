@@ -7,7 +7,6 @@
 
 \! echo "shared_preload_libraries = 'pg_stat_statements'" >> postgresql.conf
 \! pg_ctl restart --mode=immediate -D .
-CREATE EXTENSION pg_stat_statements;
 \c
 
 -- database schema
@@ -113,7 +112,7 @@ CREATE TABLE dependents (
 
 \pset pager off
 
---CREATE EXTENSION pg_stat_stataments;
+CREATE EXTENSION pg_stat_stataments;
 
 COPY public.employees (employee_id, first_name, last_name, start_date, job_title, salary, manager_id, department_id) FROM stdin;
 1	John	Smith	1989-05-07	President	364000.00	\N	1
