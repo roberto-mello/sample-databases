@@ -9,6 +9,9 @@
 \! pg_ctl restart --mode=immediate -D .
 \c
 
+-- Turn on track_io_timing
+SET track_io_timing TO ON;
+
 -- database schema
 
 CREATE TABLE regions (
